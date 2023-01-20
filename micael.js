@@ -1,8 +1,7 @@
-let exit = false;
+let exit = true;
 
 function fin(exit){
-    let fin = exit;
-    if(fin == true){
+    if(exit == true){
         win();
     }
 }
